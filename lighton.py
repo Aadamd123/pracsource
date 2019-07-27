@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 """
-Python Practical Template
-Keegan Crankshaw
-Readjust this Docstring as follows:
-Names: <names>
-Student Number: <studnum>
-Prac: <Prac Num>
-Date: <dd/mm/yyyy>
+Names: <Aadam De Doncker>
+Student Number: <DDNAAD001>
+Prac: <Prac 1>
+Date: <27/07/2019>
 """
 
 # import Relevant Librares
