@@ -43,16 +43,10 @@ def countDown():
 	   return c
 
 #Event detector with debounce for count up button
-def my_callback1(channel):
-	print('button pressed')
-
-GPIO.add_event_detect(11, GPIO.RISING, callback=my_callback1, bouncetime=200)
+GPIO.add_event_detect(11, GPIO.RISING, bouncetime=200)
 
 #Event detector with debounce for count down button
-def my_callback2(channel):
-	print('button pressed')
-
-GPIO.add_event_detect(13, GPIO.RISING, callback=my_callback2, bouncetime=200)
+GPIO.add_event_detect(13, GPIO.RISING, bouncetime=200)
 
 #main function
 def main():
